@@ -43,37 +43,47 @@ file_handler.setLevel(logging.INFO)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
+fd_flag=False
+extended_flag=False
+channel_number=0
 try:
-    # Attempt to initialize the CAN bus with Vector interface
-    with can.Bus(interface="vector", channel=0, app_name="fileSenderApp") as bus:
-        logger.info("CAN bus initialized successfully using Vector interface.")
+    # Initialize CAN bus
+    with can.Bus(interface="vector", channel=channel_number, app_name="fileSenderApp",fd=fd_flag) as bus:
+        print("CAN bus initialized successfully.")
+        logger.info("CAN bus initialized successfully.")
 
-        # Create a CAN message
-        msg = can.Message(
-            arbitration_id=0xC0FFEE,
-            data=[0, 25, 0, 1, 3, 1, 4, 1],
-            is_extended_id=True
-        )
+        # Message to be sent
+        msg = can.Message(arbitration_id=0xC0FFEE, data=[0, 25, 0, 1, 3, 1, 4, 1], is_extended_id=extended_flag,is_fd=fd_flag)
 
-        try:
-            # Attempt to send the CAN message
-            bus.send(msg)
-            print(f"Message sent on {bus.channel_info}")
-            logger.info("Message sent successfully on %s with arbitration_id=0x%X and data=%s",
-                         bus.channel_info, msg.arbitration_id, msg.data)
-                        # Wait for acknowledgment (or the response)
-            ack_msg = bus.recv(timeout=1.0)  # Timeout in seconds, adjust as needed
-            ack_msg.
-            if ack_msg:
-                # Log the acknowledgment message if received
-                logger.info("Acknowledgment received: %s", ack_msg)
-                print("Acknowledgment received")
-            else:
-                # If no message received in the timeout period
-                logger.warning("No acknowledgment received within timeout.")
-                print("No acknowledgment received within timeout.")
-        except can.CanError as e:
-            ErrorLogger.error("Error: CanError while sending a message: %s", e)
+        acknowledgment_received = False
+        retries = 3  # Number of retries
+
+        while not acknowledgment_received and retries > 0:
+            try:
+                # Send the CAN message
+                bus.send(msg)
+                print(f"Message sent: {msg}")
+                logger.info("Message sent with arbitration_id=0x%X and data=%s", msg.arbitration_id, msg.data)
+
+                # Wait for acknowledgment
+                ack = bus.recv(timeout=5)  # Wait for acknowledgment
+                if ack and ack.arbitration_id == 0xC0FFEF:  # Acknowledgment message ID
+                    print("Acknowledgment received.")
+                    logger.info("Acknowledgment received for arbitration_id=0x%X", msg.arbitration_id)
+                    acknowledgment_received = True
+                else:
+                    print("No acknowledgment received. Retrying...")
+                    logger.warning("No acknowledgment received. Retrying...")
+                    retries -= 1
+
+            except can.CanError as e:
+                ErrorLogger.error("CanError while sending a message: %s", e)
+                print(f"Error: Failed to send CAN message: {e}")
+                retries -= 1
+
+        if not acknowledgment_received:
+            print("Message transmission failed after retries.")
+            ErrorLogger.error("Message transmission failed after retries.")
             
 
 except can.interfaces.vector.exceptions.VectorInitializationError as e:

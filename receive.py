@@ -44,27 +44,39 @@ file_handler.setLevel(logging.INFO)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
+fd_flag=False
+extended_flag=False
+channel_number=0
 try:
     # Initialize the CAN bus with the Vector interface
-    with can.Bus(interface="vector", channel=0, app_name="fileSenderApp") as bus:
+    with can.Bus(interface="vector", channel=channel_number, app_name="fileSenderApp", fd=fd_flag) as bus:
         
         logger.info("CAN bus initialized successfully for receiving messages.")
 
-        try:
-            
-            logger.info("Waiting to receive a CAN message...")
-            # Block until a message is received (timeout=None means wait indefinitely)
-            msg = bus.recv(timeout=10)  # Adjust timeout as needed
+        while True:
 
-            if msg is None:
-                
-                logger.info("Timeout: No CAN message received within the specified time.")
+            logger.info("Waiting to receive a CAN message...")
+
+            # Receive a message
+            msg = bus.recv(timeout=10)  # Adjust timeout as needed
+            if msg:
+
+                logger.info("Message received with arbitration_id=0x%X and data=%s , and hole message = %s", msg.arbitration_id, msg.data, msg)
+
+                # Send acknowledgment
+                ack_msg = can.Message(arbitration_id=0xC0FFEF, data=[1], is_extended_id=extended_flag,is_fd=fd_flag)
+                try:
+                    bus.send(ack_msg)
+
+                    logger.info("Acknowledgment sent for message arbitration_id=0x%X", msg.arbitration_id)
+                except can.CanError as e:
+                    ErrorLogger.error("Error: CanError while sending acknowledgment: %s", e)
+
+
             else:
-                print(f"Message received: {msg}")
-                logger.info("Message received on %s with arbitration_id=0x%X and data=%s",
-                             bus.channel_info, msg.arbitration_id, msg.data)
-        except can.CanError as e:
-            ErrorLogger.error("Error: CAN error occurred during message reception %s", e)
+                logger.info("Timeout: No message received.")
+                break
+
             
 
 except VectorInitializationError as e:

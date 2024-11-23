@@ -1,1 +1,28 @@
 22024-11-23 21:52:09 - ERROR - Error: VectorInitializationError: xlGetChannelIndex failed (XL_ERR_HW_NOT_PRESENT) [Error Code 129] , Details: Vector CAN hardware not detected or configured incorrectly. Check connections and drivers.
+2024-11-23 23:08:20 - ERROR - Error: Unexpected exception occurred: (c_ubyte_Array_8) IndexError: invalid index
+2024-11-23 23:09:51 - ERROR - Error: Unexpected exception occurred: (c_ubyte_Array_8) IndexError: invalid index
+2024-11-23 23:11:25 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-23 23:11:25 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-23 23:11:25 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-23 23:11:25 - ERROR - Message transmission failed after retries.
+2024-11-23 23:24:06 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:24:06 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:24:06 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:24:06 - ERROR - Message transmission failed after retries.
+2024-11-23 23:34:50 - ERROR - Error: Unexpected exception occurred: (c_ubyte_Array_8) IndexError: invalid index
+2024-11-23 23:37:28 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:37:28 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:37:28 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:37:28 - ERROR - Message transmission failed after retries.
+2024-11-23 23:40:52 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:40:52 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:40:52 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:40:52 - ERROR - Message transmission failed after retries.
+2024-11-23 23:42:50 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:42:50 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:42:50 - ERROR - CanError while sending a message: xlCanTransmitEx failed (XL_ERR_INVALID_CANID) [Error Code 514]
+2024-11-23 23:42:50 - ERROR - Message transmission failed after retries.
+2024-11-23 23:44:46 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-23 23:44:46 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-23 23:44:46 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-23 23:44:46 - ERROR - Message transmission failed after retries.

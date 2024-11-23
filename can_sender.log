@@ -11,3 +11,53 @@
 2024-11-23 21:49:32 - INFO - Message sent successfully on Application fileSenderApp: CAN 1 with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
 2024-11-23 21:49:32 - INFO - CAN operation complete.
 2024-11-23 21:52:09 - INFO - CAN operation complete.
+2024-11-23 22:33:39 - INFO - CAN bus initialized successfully.
+2024-11-23 22:33:39 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 22:33:44 - WARNING - No acknowledgment received. Retrying...
+2024-11-23 22:33:44 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 22:33:49 - WARNING - No acknowledgment received. Retrying...
+2024-11-23 22:33:49 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 22:33:49 - INFO - Acknowledgment received for arbitration_id=0xC0FFEE
+2024-11-23 22:33:49 - INFO - CAN operation complete.
+2024-11-23 22:34:27 - INFO - CAN bus initialized successfully.
+2024-11-23 22:34:27 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 22:34:27 - INFO - Acknowledgment received for arbitration_id=0xC0FFEE
+2024-11-23 22:34:27 - INFO - CAN operation complete.
+2024-11-23 22:57:11 - INFO - CAN bus initialized successfully.
+2024-11-23 22:57:11 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 22:57:11 - INFO - Acknowledgment received for arbitration_id=0xC0FFEE
+2024-11-23 22:57:11 - INFO - CAN operation complete.
+2024-11-23 23:08:20 - INFO - CAN bus initialized successfully.
+2024-11-23 23:08:20 - INFO - CAN operation complete.
+2024-11-23 23:09:51 - INFO - CAN bus initialized successfully.
+2024-11-23 23:09:51 - INFO - CAN operation complete.
+2024-11-23 23:11:25 - INFO - CAN bus initialized successfully.
+2024-11-23 23:11:25 - INFO - CAN operation complete.
+2024-11-23 23:24:06 - INFO - CAN bus initialized successfully.
+2024-11-23 23:24:06 - INFO - CAN operation complete.
+2024-11-23 23:33:33 - INFO - CAN bus initialized successfully.
+2024-11-23 23:33:33 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01\x05\t\n')
+2024-11-23 23:33:33 - INFO - Acknowledgment received for arbitration_id=0xC0FFEE
+2024-11-23 23:33:33 - INFO - CAN operation complete.
+2024-11-23 23:34:50 - INFO - CAN bus initialized successfully.
+2024-11-23 23:34:50 - INFO - CAN operation complete.
+2024-11-23 23:36:25 - INFO - CAN bus initialized successfully.
+2024-11-23 23:36:25 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01\x05\t\n')
+2024-11-23 23:36:25 - INFO - Acknowledgment received for arbitration_id=0xC0FFEE
+2024-11-23 23:36:25 - INFO - CAN operation complete.
+2024-11-23 23:37:28 - INFO - CAN bus initialized successfully.
+2024-11-23 23:37:28 - INFO - CAN operation complete.
+2024-11-23 23:40:52 - INFO - CAN bus initialized successfully.
+2024-11-23 23:40:52 - INFO - CAN operation complete.
+2024-11-23 23:41:49 - INFO - CAN bus initialized successfully.
+2024-11-23 23:41:49 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01\x05\t\n')
+2024-11-23 23:41:49 - INFO - Acknowledgment received for arbitration_id=0xC0FFEE
+2024-11-23 23:41:49 - INFO - CAN operation complete.
+2024-11-23 23:42:50 - INFO - CAN bus initialized successfully.
+2024-11-23 23:42:50 - INFO - CAN operation complete.
+2024-11-23 23:44:10 - INFO - CAN bus initialized successfully.
+2024-11-23 23:44:10 - INFO - Message sent with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 23:44:10 - INFO - Acknowledgment received for arbitration_id=0xC0FFEE
+2024-11-23 23:44:10 - INFO - CAN operation complete.
+2024-11-23 23:44:46 - INFO - CAN bus initialized successfully.
+2024-11-23 23:44:46 - INFO - CAN operation complete.

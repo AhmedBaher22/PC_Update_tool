@@ -7,3 +7,78 @@
 2024-11-23 21:49:32 - INFO - Message received on Application fileSenderApp: CAN 1 with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
 2024-11-23 21:49:32 - INFO - CAN receive operation complete.
 2024-11-23 21:51:17 - INFO - CAN receive operation complete.
+2024-11-23 22:33:44 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 22:33:44 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:33:49 - INFO - Message received with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 22:33:49 - INFO - Acknowledgment sent for message arbitration_id=0xC0FFEE
+2024-11-23 22:33:49 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:33:59 - INFO - Timeout: No message received.
+2024-11-23 22:33:59 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:34:09 - INFO - Timeout: No message received.
+2024-11-23 22:34:09 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:34:19 - INFO - CAN receive operation complete.
+2024-11-23 22:34:24 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 22:34:24 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:34:27 - INFO - Message received with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 22:34:27 - INFO - Acknowledgment sent for message arbitration_id=0xC0FFEE
+2024-11-23 22:34:27 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:34:37 - INFO - Timeout: No message received.
+2024-11-23 22:34:37 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:57:05 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 22:57:05 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:57:11 - INFO - Message received with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01') , and hole message = Timestamp: 1732395431.323446    ID: 00c0ffee    X Rx                DL:  8    00 19 00 01 03 01 04 01     Channel: 0
+2024-11-23 22:57:11 - INFO - Acknowledgment sent for message arbitration_id=0xC0FFEE
+2024-11-23 22:57:11 - INFO - Waiting to receive a CAN message...
+2024-11-23 22:57:21 - INFO - Timeout: No message received.
+2024-11-23 22:57:21 - INFO - CAN receive operation complete.
+2024-11-23 23:08:14 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:08:14 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:08:24 - INFO - Timeout: No message received.
+2024-11-23 23:08:24 - INFO - CAN receive operation complete.
+2024-11-23 23:33:08 - INFO - CAN receive operation complete.
+2024-11-23 23:33:24 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:33:24 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:33:33 - INFO - Message received with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01\x05\t\n\x00') , and hole message = Timestamp: 1732397613.825289    ID: 00c0ffee    X Rx     F          DL: 12    00 19 00 01 03 01 04 01 05 09 0a 00    Channel: 1
+2024-11-23 23:33:33 - INFO - Acknowledgment sent for message arbitration_id=0xC0FFEE
+2024-11-23 23:33:33 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:33:43 - INFO - Timeout: No message received.
+2024-11-23 23:33:43 - INFO - CAN receive operation complete.
+2024-11-23 23:34:48 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:34:48 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:34:58 - INFO - Timeout: No message received.
+2024-11-23 23:34:58 - INFO - CAN receive operation complete.
+2024-11-23 23:36:21 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:36:21 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:36:25 - INFO - Message received with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01\x05\t\n\x00') , and hole message = Timestamp: 1732397785.636179    ID: 00c0ffee    X Rx     F          DL: 12    00 19 00 01 03 01 04 01 05 09 0a 00    Channel: 1
+2024-11-23 23:36:25 - INFO - Acknowledgment sent for message arbitration_id=0xC0FFEE
+2024-11-23 23:36:25 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:37:23 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:37:23 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:37:33 - INFO - Timeout: No message received.
+2024-11-23 23:37:33 - INFO - CAN receive operation complete.
+2024-11-23 23:40:48 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:40:48 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:40:58 - INFO - Timeout: No message received.
+2024-11-23 23:40:58 - INFO - CAN receive operation complete.
+2024-11-23 23:41:44 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:41:44 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:41:49 - INFO - Message received with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01\x05\t\n\x00') , and hole message = Timestamp: 1732398109.403557    ID: 00c0ffee    X Rx     F          DL: 12    00 19 00 01 03 01 04 01 05 09 0a 00    Channel: 1
+2024-11-23 23:41:49 - INFO - Acknowledgment sent for message arbitration_id=0xC0FFEE
+2024-11-23 23:41:49 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:41:59 - INFO - Timeout: No message received.
+2024-11-23 23:41:59 - INFO - CAN receive operation complete.
+2024-11-23 23:42:48 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:42:48 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:42:58 - INFO - Timeout: No message received.
+2024-11-23 23:42:58 - INFO - CAN receive operation complete.
+2024-11-23 23:44:08 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:44:08 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:44:10 - INFO - Message received with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01') , and hole message = Timestamp: 1732398250.775301    ID: 00c0ffee    X Rx                DL:  8    00 19 00 01 03 01 04 01     Channel: 0
+2024-11-23 23:44:10 - INFO - Acknowledgment sent for message arbitration_id=0xC0FFEE
+2024-11-23 23:44:10 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:44:20 - INFO - Timeout: No message received.
+2024-11-23 23:44:20 - INFO - CAN receive operation complete.
+2024-11-23 23:44:44 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 23:44:44 - INFO - Waiting to receive a CAN message...
+2024-11-23 23:44:54 - INFO - Timeout: No message received.
+2024-11-23 23:44:54 - INFO - CAN receive operation complete.

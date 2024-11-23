@@ -1,1 +1,2 @@
 2024-11-23 21:51:17 - ERROR - Error: VectorInitializationError: xlGetChannelIndex failed (XL_ERR_HW_NOT_PRESENT) [Error Code 129], Details: Vector CAN hardware not detected or configured incorrectly. Check connections and drivers.
+2024-11-23 23:33:08 - ERROR - Error: VectorInitializationError: xlGetApplConfig failed (Vector HW Config: Channel '1' of application 'fileSenderApp' is not assigned to any interface) [Error Code 255], Details: Vector CAN hardware not detected or configured incorrectly. Check connections and drivers.
