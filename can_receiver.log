@@ -1,0 +1,9 @@
+2024-11-23 21:48:23 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 21:48:23 - INFO - Waiting to receive a CAN message...
+2024-11-23 21:48:33 - INFO - Timeout: No CAN message received within the specified time.
+2024-11-23 21:48:33 - INFO - CAN receive operation complete.
+2024-11-23 21:49:30 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 21:49:30 - INFO - Waiting to receive a CAN message...
+2024-11-23 21:49:32 - INFO - Message received on Application fileSenderApp: CAN 1 with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 21:49:32 - INFO - CAN receive operation complete.
+2024-11-23 21:51:17 - INFO - CAN receive operation complete.

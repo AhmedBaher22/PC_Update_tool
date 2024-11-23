@@ -1,0 +1,6 @@
+2024-11-23 21:47:25 - INFO - CAN bus initialized successfully using Vector interface.
+2024-11-23 21:47:25 - INFO - Message sent successfully on Application fileSenderApp: CAN 1 with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 21:47:25 - INFO - CAN operation complete.
+2024-11-23 21:47:43 - INFO - CAN bus initialized successfully using Vector interface.
+2024-11-23 21:47:43 - INFO - Message sent successfully on Application fileSenderApp: CAN 1 with arbitration_id=0xC0FFEE and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-23 21:47:43 - INFO - CAN operation complete.

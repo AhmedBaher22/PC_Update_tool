@@ -1,0 +1,4 @@
+2024-11-23 21:48:23 - INFO - CAN bus initialized successfully for receiving messages.
+2024-11-23 21:48:23 - INFO - Waiting to receive a CAN message...
+2024-11-23 21:48:33 - INFO - Timeout: No CAN message received within the specified time.
+2024-11-23 21:48:33 - INFO - CAN receive operation complete.

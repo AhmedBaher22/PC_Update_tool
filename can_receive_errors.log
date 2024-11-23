@@ -1,0 +1,1 @@
+2024-11-23 21:51:17 - ERROR - Error: VectorInitializationError: xlGetChannelIndex failed (XL_ERR_HW_NOT_PRESENT) [Error Code 129], Details: Vector CAN hardware not detected or configured incorrectly. Check connections and drivers.
