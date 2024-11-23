@@ -26,3 +26,11 @@
 2024-11-23 23:44:46 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
 2024-11-23 23:44:46 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
 2024-11-23 23:44:46 - ERROR - Message transmission failed after retries.
+2024-11-24 00:09:25 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-24 00:09:25 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-24 00:09:25 - ERROR - CanError while sending a message: xlCanTransmit failed (XL_ERR_WRONG_PARAMETER) [Error Code 101]
+2024-11-24 00:09:25 - ERROR - Message transmission failed after retries.
+2024-11-24 00:10:05 - ERROR - Message transmission failed after retries.
+2024-11-24 00:11:22 - ERROR - Message transmission failed after retries.
+2024-11-24 00:12:38 - ERROR - Message transmission failed after retries.
+2024-11-24 00:33:22 - ERROR - Message transmission failed after retries.

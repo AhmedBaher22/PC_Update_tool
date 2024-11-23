@@ -61,3 +61,80 @@
 2024-11-23 23:44:10 - INFO - CAN operation complete.
 2024-11-23 23:44:46 - INFO - CAN bus initialized successfully.
 2024-11-23 23:44:46 - INFO - CAN operation complete.
+2024-11-24 00:09:25 - INFO - CAN bus initialized successfully.
+2024-11-24 00:09:25 - INFO - CAN operation complete.
+2024-11-24 00:10:05 - INFO - CAN bus initialized successfully.
+2024-11-24 00:10:05 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:10:05 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:10:05 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:10:05 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:10:05 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:10:05 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:10:05 - INFO - CAN operation complete.
+2024-11-24 00:11:22 - INFO - CAN bus initialized successfully.
+2024-11-24 00:11:22 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:11:22 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:11:22 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:11:22 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:11:22 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:11:22 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:11:22 - INFO - CAN operation complete.
+2024-11-24 00:12:38 - INFO - CAN bus initialized successfully.
+2024-11-24 00:12:38 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:12:38 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:12:38 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:12:38 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:12:38 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:12:38 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:12:38 - INFO - CAN operation complete.
+2024-11-24 00:14:44 - INFO - CAN bus initialized successfully.
+2024-11-24 00:14:44 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:14:44 - INFO - Acknowledgment received for arbitration_id=0x33
+2024-11-24 00:14:44 - INFO - CAN operation complete.
+2024-11-24 00:14:54 - INFO - CAN bus initialized successfully.
+2024-11-24 00:14:54 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:14:54 - INFO - Acknowledgment received for arbitration_id=0x33
+2024-11-24 00:14:54 - INFO - CAN operation complete.
+2024-11-24 00:18:00 - INFO - CAN bus initialized successfully.
+2024-11-24 00:18:00 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:18:00 - INFO - Acknowledgment received for arbitration_id=0x33
+2024-11-24 00:18:00 - INFO - CAN operation complete.
+2024-11-24 00:18:04 - INFO - CAN bus initialized successfully.
+2024-11-24 00:18:04 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:18:04 - INFO - Acknowledgment received for arbitration_id=0x33
+2024-11-24 00:18:04 - INFO - CAN operation complete.
+2024-11-24 00:19:43 - INFO - CAN bus initialized successfully.
+2024-11-24 00:19:43 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:19:43 - INFO - Acknowledgment received for arbitration_id=0x33
+2024-11-24 00:19:43 - INFO - CAN operation complete.
+2024-11-24 00:21:26 - INFO - CAN bus initialized successfully.
+2024-11-24 00:21:26 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:21:26 - INFO - Acknowledgment received for arbitration_id=0x32
+2024-11-24 00:21:26 - INFO - CAN operation complete.
+2024-11-24 00:23:04 - INFO - CAN bus initialized successfully.
+2024-11-24 00:23:04 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:23:09 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:23:09 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:23:14 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:23:14 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:23:19 - INFO - CAN operation complete.
+2024-11-24 00:24:39 - INFO - CAN bus initialized successfully.
+2024-11-24 00:24:39 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:24:39 - INFO - Acknowledgment received for arbitration_id=0x44
+2024-11-24 00:24:39 - INFO - CAN operation complete.
+2024-11-24 00:26:35 - INFO - CAN bus initialized successfully.
+2024-11-24 00:26:35 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:26:35 - INFO - Acknowledgment received for arbitration_id=0x44
+2024-11-24 00:26:35 - INFO - CAN operation complete.
+2024-11-24 00:33:07 - INFO - CAN bus initialized successfully.
+2024-11-24 00:33:07 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:33:12 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:33:12 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:33:17 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:33:17 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:33:22 - WARNING - No acknowledgment received. Retrying...
+2024-11-24 00:33:22 - INFO - CAN operation complete.
+2024-11-24 00:34:53 - INFO - CAN bus initialized successfully.
+2024-11-24 00:34:53 - INFO - Message sent with arbitration_id=0x33 and data=bytearray(b'\x00\x19\x00\x01\x03\x01\x04\x01')
+2024-11-24 00:34:53 - INFO - Acknowledgment received for arbitration_id=0x33
+2024-11-24 00:34:53 - INFO - CAN operation complete.

@@ -46,17 +46,21 @@ logger.addHandler(file_handler)
 fd_flag=False
 extended_flag=False
 channel_number=0
+message_id = 0x33
+retries = 3  # Number of retries
+time_out_in_seconds=5
+
 try:
     # Initialize CAN bus
     with can.Bus(interface="vector", channel=channel_number, app_name="fileSenderApp",fd=fd_flag) as bus:
         print("CAN bus initialized successfully.")
         logger.info("CAN bus initialized successfully.")
-
+        bus.set_filters([{"can_id": message_id, "can_mask": 0x7FF, "extended": extended_flag}])
         # Message to be sent
-        msg = can.Message(arbitration_id=0xC0FFEE, data=[0, 25, 0, 1, 3, 1, 4, 1], is_extended_id=extended_flag,is_fd=fd_flag)
+        msg = can.Message(arbitration_id=message_id, data=[0, 25, 0, 1, 3, 1, 4, 1], is_extended_id=extended_flag,is_fd=fd_flag)
 
         acknowledgment_received = False
-        retries = 3  # Number of retries
+
 
         while not acknowledgment_received and retries > 0:
             try:
@@ -66,10 +70,10 @@ try:
                 logger.info("Message sent with arbitration_id=0x%X and data=%s", msg.arbitration_id, msg.data)
 
                 # Wait for acknowledgment
-                ack = bus.recv(timeout=5)  # Wait for acknowledgment
-                if ack and ack.arbitration_id == 0xC0FFEF:  # Acknowledgment message ID
+                ack = bus.recv(timeout=time_out_in_seconds)  # Wait for acknowledgment
+                if ack :  # Acknowledgment message ID
                     print("Acknowledgment received.")
-                    logger.info("Acknowledgment received for arbitration_id=0x%X", msg.arbitration_id)
+                    logger.info("Acknowledgment received for arbitration_id=0x%X", ack.arbitration_id)
                     acknowledgment_received = True
                 else:
                     print("No acknowledgment received. Retrying...")
